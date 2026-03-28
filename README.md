@@ -3,4 +3,6 @@
 
 ----------------
 
+Parte deste projeto indica um pouco sobre mim (Leonardo - Autor deste projeto)
+
 2026 Todos os direitos reservados.
