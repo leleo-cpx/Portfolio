@@ -1,0 +1,63 @@
+.content>.quemsou{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.quemsou .cta {
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100%;
+}
+
+.cta1 {
+    border: solid 1px white;
+    color: rgb(255, 255, 255);
+    background-color: #0000005b;
+    padding: 12px 14px;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(20px); 
+}
+
+.cta1:hover{
+    background-color: white;
+    backdrop-filter: blur(20px); 
+}
+
+.cta1:hover,
+.cta1:hover i{
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+  --sb-track-color: #202020;
+  --sb-thumb-color: #ffffff;
+  --sb-size: 5px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
